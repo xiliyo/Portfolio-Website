@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono|Muli");
+.calculator-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.calculator-form {
+  background-color: #f8f8f8;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.option-group {
+  margin: 20px 0;
+}
+
+.radio-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.radio-option {
+  position: relative;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.radio-option:hover {
+  border-color: #000;
+}
+
+.radio-option input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-option input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+.radio-option input[type="radio"]:checked + label .price {
+  color: #000;
+}
+
+.radio-option:has(input[type="radio"]:checked) {
+  border-color: #000;
+  background-color: #fff;
+}
+
+.radio-option label {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.option-title {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.price {
+  display: block;
+  color: #666;
+}
+
+.extras {
+  margin: 20px 0;
+}
+
+.checkbox-group {
+  margin: 15px 0;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.checkbox-option input[type="checkbox"] {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.number-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.number-input input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.total-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.final-total {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.revision-note {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
+}
+
+body {
+    margin: 1;
+    padding: 1;
+    background: ghostwhite;
+    }
+
+    nav#topmenu ul {
+    list-style: none;
+    background-color: #48000D;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+
+    nav#topmenu li {
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    line-height: 40px;height: 40px;
+    display: inline-block;padding: 20px;
+    }
+
+    nav#topmenu a {
+    text-decoration: none; color: ghostwhite;
+    }
+
+    h1 {
+        text-align: center;
+        color:rgb(22, 19, 31);
+        font-family: "Space Mono", monospace;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        height: 40px;
+        padding: 20px;
+        margin: 30px;
+    }
+
+    h2 {
+      text-align: left;
+        color:rgb(22, 19, 31);
+        font-family: "Space Mono", monospace;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+        height: 10px;
+        padding: 10px;
+        margin:16px;
+    }
+
+    h3 {
+      text-align: left;
+        color:rgb(22, 19, 31);
+        font-family: "Space Mono", monospace;
+        font-size: 18px;
+        font-weight: 400;
+       
+    }
+
+
+    p {
+      text-align: left;
+        color:rgb(22, 19, 31);
+        font-family: "Space Mono", monospace;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 40px;
+        margin:20px;
+    }
+ 
+    img {
+      display: block;
+      margin-left: auto;
+     margin-right: auto;
+     width:20%;  
+     float:left;
+      }
+    
+      img.header {
+       width:100%;  
+      
+        }
+
+      nav#contact ul {
+        list-style: none;
+        text-align: center;
+
+        font-family: "Space Mono", monospace;
+        font-size: 15px;
+        color:#ffffff;
+        }
+    
+
+
+    /* Attributions:
+    https://www.w3schools.com/css/tryit.asp?filename=trycss_font_pair_smm
+    https://www.wikihow.com/Use-Google-Fonts-in-CSS#:~:text=Just%20copy%20the%20part%20of,%40300%26display%3Dswap')%3B%20.&text=Open%20your%20CSS%20file%20or,edit%20in%20your%20text%20editor. */
