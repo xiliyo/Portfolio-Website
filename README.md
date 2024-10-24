@@ -6,12 +6,11 @@ Carael Bandojo
 
 ## Description
 
-This is a small interactive little art piece that lets you experience a scene by the beach.
-Use your mouse to control the waves and the sky. Click to watch the water levels rise.
+A demo for an interactive portfolio website.
 
 ## Credits
 
-This project uses [p5.js](https://p5js.org).
+This project was co-piloted by Claude. Specifically for the price calculator.
 
 ## Attribution
 
