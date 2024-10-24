@@ -2,7 +2,7 @@
 
 Carael Bandojo
 
-[View this project online](https://xiliyo.github.io/portfolio-website/index.html)
+[View this project online](https://xiliyo.github.io/Portfolio-Website/index.html)
 
 ## Description
 
