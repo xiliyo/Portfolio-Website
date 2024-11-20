@@ -1,6 +1,4 @@
-# Art Jam : By the Seaside
-
-Carael Bandojo
+# Portfolio Website
 
 [View this project online](https://xiliyo.github.io/Portfolio-Website/index.html)
 
