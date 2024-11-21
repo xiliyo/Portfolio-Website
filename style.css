@@ -6,7 +6,7 @@
   --secondary-color: #8B0000;
   --background-color: #f4f4f4;
   --text-color: #333;
-  --accent-color: #FFD700;
+  --accent-color: #ffffff;
 }
 
 body {
@@ -88,7 +88,8 @@ h3 {
 
 /* Containers */
 .calculator-container,
-.pricing-container {
+.pricing-container,
+.contact-container {
   max-width: 900px;
   margin: 30px auto;
   background-color: white;
