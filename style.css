@@ -6,6 +6,13 @@
   font-family: Arial, sans-serif;
 }
 
+.pricing-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
 .calculator-form {
   background-color: #f8f8f8;
   padding: 25px;
