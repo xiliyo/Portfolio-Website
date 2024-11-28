@@ -1,3 +1,9 @@
+/* Carael Bandojo
+CART 211
+Luke Russell
+
+CSS document for Carael's Commission/Portfolio website.*/
+
 /* Updated CSS with improved design */
 @import url("https://fonts.googleapis.com/css?family=Space+Mono|Muli");
 
@@ -18,7 +24,7 @@ body {
   line-height: 1.6;
 }
 
-/* Top Navigation */
+/* Top Navigation, taken from Lecture 9 and altered slightly by me to fit my aesthetics. */
 nav#topmenu {
   position: fixed;
   background-color: var(--primary-color);
@@ -98,6 +104,7 @@ h3 {
   padding: 30px;
 }
 
+/* Calculator, completely made with AI co-piloting. */
 .calculator-container {
   max-width: 800px;
   margin: 20px auto;
@@ -235,7 +242,7 @@ h3 {
   color: #666;
 }
 
-/* Images */
+/* Images, improved graphics with AI co-piloting. */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -255,7 +262,7 @@ h3 {
   transform: scale(1.05);
 }
 
-/* Contact Links */
+/* Contact Links, improved graphics with AI co-piloting. */
 nav#contact .flex-container {
   gap: 30px;
 }
