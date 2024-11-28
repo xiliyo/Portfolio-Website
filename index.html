@@ -30,12 +30,16 @@ Index folder for Carael's Commission/Portfolio website. -->
         </nav>
         
         <!--------------- HOME SECTION --------------->
+        <!-- Contains just the header photo for the website. -->
          <img class="header" src="https://i.imgur.com/BSxectF.png" alt="Commissions" width="100%">
-          <nav id="home">
+
+
+          <nav id="home"> <!-- Allows naviagation menu to scroll here. -->
         </nav>
 
         <!--------------- SAMPLE SECTION --------------->
-          <nav id="samples">
+        <!-- Various simple images featuring works I am proud of and can consistently deliver to clients. -->
+          <nav id="samples"> <!-- Allows naviagation menu to scroll here. -->
                 <div class="flex-container">
                     <img src="https://i.imgur.com/GrlqiPH.jpeg" alt="Commissioned art, half painted half screentoned.">
                     <img src="https://i.imgur.com/aBXWlPd.png" alt="OC art.">
@@ -46,16 +50,16 @@ Index folder for Carael's Commission/Portfolio website. -->
                     <img src="https://i.imgur.com/h0OO63d.png" alt="Maria Marionette fanart.">
                     <img src="https://i.imgur.com/YcwKcT0.png" alt="Fullbody portrait of a dog bog.">
                 </div>
-              </nav>
+              </nav> 
         <br>
 
         <!--------------- TOS SECTION --------------->
-        <nav id="tos">
-            <h1>Terms of Service</h1>
+        <nav id="tos"> <!-- Allows naviagation menu to scroll here. -->
+            <h1>Terms of Service</h1> 
   
         <!-- Container for TOS text. -->
-         <!-- Pricing container is the same container used by calculator. -->
-        <div class="pricing-container">  
+         <!-- Just the general legalities of purchasing my artwork. Copyright, payment, revisions, etc. -->
+        <div class="pricing-container">  <!--  Container is the same container used by contact, pricing, & calculator. -->
             <hr>
             <br>
             <h3>All prices are listed in CAD!</h3>
@@ -116,18 +120,19 @@ Index folder for Carael's Commission/Portfolio website. -->
                 <p>✖︎ The client is always allowed to ask for a status update! Please do not bombard me with emails though, as I have many other clients that I also engage with.</p> 
         
             <hr>
-            </div>
+            </div> 
         </nav>
-
+        
         <!--------------- PRICING SECTION --------------->
-         <!-- Majority done by AI, except for the PayPal button which was pasted from the PayPal website. -->
-        <nav id="pricing">
+         <!-- Done by AI, except for the PayPal button which was pasted from the PayPal website. -->
+        <nav id="pricing"> <!-- Allows naviagation menu to scroll here. -->
             <h1>Pricing</h1>
             <hr>
-            <div class="calculator-container">
+            <div class="calculator-container"> <!--  Container is the same container used by contact, pricing, & calculator. -->
                 <h1>Commission Price Calculator</h1>
                 <p>✖︎ All prices are in CAD</p>
                 
+                <!--  Preset headshot pricing. -->
                 <form class="calculator-form" id="commissionForm">
                   <div class="option-group">
                     <h3>Select Style:</h3>
@@ -140,6 +145,7 @@ Index folder for Carael's Commission/Portfolio website. -->
                         </label>
                       </div>
                       
+                      <!--  Preset half body pricing. -->
                       <div class="radio-option">
                         <input type="radio" id="halfbody" name="style" value="45">
                         <label for="halfbody">
@@ -148,6 +154,7 @@ Index folder for Carael's Commission/Portfolio website. -->
                         </label>
                       </div>
                       
+                      <!--  Preset fullbody pricing. -->
                       <div class="radio-option">
                         <input type="radio" id="fullbody" name="style" value="65">
                         <label for="fullbody">
@@ -157,15 +164,18 @@ Index folder for Carael's Commission/Portfolio website. -->
                       </div>
                     </div>
                   </div>
-              
+                  
+                  <!--  Allowing user to select additional features for an added fee. -->
                   <div class="extras">
                     <h3>Additional Options:</h3>
                     
+                    <!--  Adds 20$ and an additional character everytime value is increased. -->
                     <div class="number-input">
                       <label for="characters">Additional Characters ($20 CAD each):</label>
                       <input type="number" id="characters" name="characters" value="0" min="0" max="10">
                     </div>
               
+                    <!-- Multiplies the price by 150% for commercial rights (printing, distribution, etc.). -->
                     <div class="checkbox-group">
                       <div class="checkbox-option">
                         <input type="checkbox" id="commercial" name="commercial">
@@ -174,6 +184,7 @@ Index folder for Carael's Commission/Portfolio website. -->
                     </div>
                   </div>
               
+                  <!--  Holds values for the prices of the various things selected. -->
                   <div class="total-section">
                     <div class="total-row">
                       <span>Base Price:</span>
@@ -205,7 +216,9 @@ Index folder for Carael's Commission/Portfolio website. -->
                 </form>
               </div>
               
+              
               <script>
+                // Calculator logic, done by AI.
               function calculateTotal() {
                 const form = document.getElementById('commissionForm');
                 const basePrice = parseInt(form.querySelector('input[name="style"]:checked')?.value || 0);
@@ -248,13 +261,12 @@ Index folder for Carael's Commission/Portfolio website. -->
 
         <!--------------- CONTACT SECTION --------------->
          <!-- Links that go towards various social media, along with a direct mail to my business email for commissions. -->
-        <nav id="contact">
+        <nav id="contact"> <!-- Allows naviagation menu to scroll here. -->
             <br>
             <h1>Contact</h1>
             <hr>
-                <br>
-                <!-- Same container as calculator and TOS. -->
-                 <div class="contact-container"> 
+                <br> 
+                 <div class="contact-container"> <!--  Container is the same container used by contact, pricing, & calculator. -->
                     <ul><a href="https://www.youtube.com/@xiliyo">✖︎ youtube</a></ul>
                     <ul><a href="https://x.com/XOXiliyo">✖︎ twitter / x</a></ul>
                     <ul><a href="https://www.tiktok.com/@XOxiliyo">✖︎ tiktok</a></ul>
